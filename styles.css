@@ -11,6 +11,30 @@ body {
     font-size: 24px;
 }
 
+.col-12 {
+    display: none;
+}
+
+button, #loadMore, #loadMore:active, #loadMore:visited, #loadMore:focus {
+    color: #349176;
+    border-radius: 40px;
+    border-color: #349176;
+    border: solid 2px;
+    padding: 2px 12px 2px 12px;
+    text-decoration: none;
+    align-items: center;
+    text-align: center;
+    font-size: 24px;
+    font-family: 'new-spirit-condensed';
+    margin-bottom: 32px;
+}
+
+#loadMore:hover {
+    background-color: #349176;
+    border-radius: 20px;
+    color: #DED9C3;
+}
+
 .navbar-toggler:hover {
     background-color: #DED9C3;
     border-radius: 20px;
@@ -214,7 +238,7 @@ blockquote {
 }
 
 .track {
-    margin-bottom: 32px;
+    margin-bottom: 0px;
 }
 
 p {

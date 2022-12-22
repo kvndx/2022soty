@@ -28,7 +28,17 @@ function randomSong(){
 
     const put_iframe = document.querySelector('#randomSongName')
     put_iframe.append(songFramePicked.cloneNode(true));
-
-
-
 }
+
+$(document).ready(function(){
+    $(".col-12").slice(0, 1).show();
+    $("#loadMore").on("click", function(e){
+      e.preventDefault();
+      $(".col-12:hidden").slice(0, 1).slideDown();
+      if($(".col-12:hidden").length === 0) {
+        document.getElementById("loadMore").style.visibility("hidden");
+        document.getElementById("loadMore").style.display("none");
+      }
+    });
+    
+  })
