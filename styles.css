@@ -1,0 +1,249 @@
+body {
+    background-color: #DED9C3;
+    font-family: 'darkmode-mono-off', sans-serif;
+    color: #349176;
+}
+
+.navbar-toggler, .navbar-toggler:active, .navbar-toggler:visited, .navbar-toggler:focus {
+    color: #DED9C3;
+    border-radius: 20px;
+    border-color: #DED9C3;
+    font-size: 24px;
+}
+
+.navbar-toggler:hover {
+    background-color: #DED9C3;
+    border-radius: 20px;
+    color: #349176;
+}
+
+
+#introduction, .introduction {
+    color: #349176;
+    padding-top: 96px;
+}
+
+p.intro {
+    margin-bottom: 32px;
+}
+
+#random, #randomSongName, #randomSongNumber, .random, .randomColor {
+    color: #DED9C3;
+    background-color: #349176;
+    font-weight: 400;
+    margin: 0 0 0 0;
+}
+
+h2.randomColor.randomHeader {
+    padding-top: 24px;
+}
+
+#randomSongNumber {
+    margin-top: 24px;
+    margin-bottom: 8px;
+}
+
+#randomSongName {
+    margin-bottom: 8px;
+}
+
+.randomHeader {
+    margin-top: 8px;
+    margin-bottom: 8px;
+}
+
+p.randomColor {
+    margin-bottom: 16px;
+}
+
+p.blank {
+    margin: 0 0 0 0;
+    padding: 0 0 0 0;
+}
+
+.randomButton, .randomButton:active, .randomButton:visited, .randomButton:focus {
+    margin-top: 8px;
+    margin-bottom: 0;
+    background-color: #349176;
+    color: #DED9C3;
+    font-family: 'new-spirit-condensed';
+    font-size: 22px;
+    border-radius: 40px;
+    border-color: #DED9C3;
+}
+
+.randomButton:hover {
+    background-color: #DED9C3;
+    color: #349176;
+    border-color: #DED9C3;
+}
+
+#random {
+    padding-bottom: 16px;
+    padding-top: 16px;
+}
+
+#spacer {
+    margin-bottom: 64px;
+}
+
+#hundred {
+    margin-top: 32px;
+}
+
+.navbar-nav, .navbar-dark, .nav-link, .nav-link:active, .nav-link:visited {
+    color: #DED9C3;
+}
+
+.nav-link:hover {
+    background-color: #DED9C3;
+    color: #349176;
+}
+
+#navbar, .navbar, .fixed-top {
+    background-color: #349176;
+    color: #DED9C3;
+    max-width: 100%;
+    font-family: 'new-spirit-condensed', sans-serif;
+    font-weight: 300;
+    font-size: 24px;
+}
+
+iframe {
+    margin-top: 8px;
+}
+
+.nav-link {
+    border: 1px;
+    border-style: solid;
+    border-radius: 20px;
+    padding-top: 0;
+    padding-bottom: 0;
+    margin-left: 3px;
+    margin-right: 3px;
+    color: #DED9C3;
+    text-align: center;
+    margin-bottom: 5px;
+    margin-top: 5px;
+    font-family: 'new-spirit-condensed';
+}
+
+.navbar-brand, .navbar-dark, .navbar-nav {
+    font-family: 'dead-history', sans-serif;
+    font-weight: 400;
+    font-size: 24px;
+    color: #DED9C3;
+}
+
+.navbar-brand:hover, .navbar-brand:visited, .navbar-brand:active {
+    color: #DED9C3;
+}
+
+.navbar-dark {
+    color: #DED9C3;
+}
+
+.container-fluid {
+    max-width: 60%;
+}
+
+img {
+    display: block;
+    max-width: 100%;
+    height: auto; 
+    margin-top: 32px;
+    margin-bottom: 16px;
+}
+
+.spacer {
+    margin-bottom: 64px;
+}
+
+.spacer2 {
+    margin-bottom: 64px;
+}
+
+.first {
+    padding-top: 32px;
+}
+
+footer {
+    text-align: center;
+}
+
+h1, h2 {
+    color: #349176;
+    font-family: 'dead-history', serif;
+    font-weight: 600;
+    margin-top: 16px;
+    margin-bottom: 16px;
+}
+
+h3 {
+    color: #349176;
+    margin-top: 8px;
+    font-family: 'dead-history', serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 40px;
+}
+
+h4 {
+    color: #349176;
+    margin-top: 8px;
+    padding-top: 0;
+    font-family: 'new-spirit-condensed', serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 30px;
+    padding-bottom: 4px;
+    margin-bottom: 0px;
+}
+
+blockquote {
+    padding-left: 15px;
+    border-left: 2px solid #349176;
+    margin-top: 16px;
+    margin-bottom: 16px;
+    padding-top: 0;
+    display: inline-flex;
+    font-family: 'new-spirit-condensed', serif;
+    font-weight: 400;
+    font-style: italic;
+    font-size: 22px;
+}
+
+.track {
+    margin-bottom: 32px;
+}
+
+p {
+    color: #349176;
+    font-family: 'new-spirit-condensed', serif;
+    font-weight: 400;
+    font-size: 22px;
+}
+
+.container {
+    max-width: 100%;
+}
+
+.container-fluid {
+    max-width: 750px;
+} 
+
+iframe {
+    margin: 0 0 0 0;
+    padding: 0 0 0 0;
+    margin-top: 8px;
+}
+
+.nofocus-outline {
+    margin-bottom: 0;
+    padding-bottom: 0;
+}
+
+footer {
+    font-family:'dead-history';
+    margin-bottom: 64px;
+}
